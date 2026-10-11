@@ -1,0 +1,35 @@
+[project]
+name = "wordle-bot-jev"
+version = "0.1.0"
+description = "A simple Laya integration that plays Wordle: a classic solver shortlists guesses, Laya picks one."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "c-o-u-s-c-o-u-s" }]
+requires-python = ">=3.10"
+dependencies = [
+    "laya>=0.4,<0.5",   # tested with 0.4.2; the choice-question API may change in 0.5
+    "numpy>=1.24",
+    "selenium>=4.20",   # Selenium Manager fetches browser drivers automatically
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Games/Entertainment :: Puzzle Games",
+]
+
+[project.urls]
+Repository = "https://github.com/c-o-u-s-c-o-u-s/wordle-bot-jev"
+
+[project.scripts]
+wordle-bot = "wordle_bot.cli:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["wordle_bot"]
+
+[tool.setuptools.package-data]
+wordle_bot = ["data/*.txt", "data/*.json"]

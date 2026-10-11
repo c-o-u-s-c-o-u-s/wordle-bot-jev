@@ -1,0 +1,26 @@
+# Plays one real game on wordleunlimited.org per browser. Manual only, to keep traffic to the
+# site minimal. Uses the solver picker so it doesn't need torch or the Laya checkpoint.
+name: Browser smoke test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  web:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { os: ubuntu-latest, browser: firefox }
+          - { os: ubuntu-latest, browser: chrome }
+          - { os: macos-latest, browser: firefox }
+          - { os: windows-latest, browser: edge }
+          - { os: windows-latest, browser: chrome }
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: python -m pip install numpy selenium
+      - run: python -m wordle_bot web --headless --picker solver --games 1 --browser ${{ matrix.browser }}

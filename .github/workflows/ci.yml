@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  unit-tests:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python: ["3.10", "3.14"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install numpy
+      - run: python -m unittest tests.test_wordle -v
+
+  # The README's one-command path, end to end: venv, install, Laya on CPU, a few simulated games.
+  one-command:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-laya-${{ runner.os }}-0.4
+      - name: run.sh
+        if: runner.os != 'Windows'
+        run: ./run.sh sim --n 3 --quiet
+      - name: run.ps1
+        if: runner.os == 'Windows'
+        shell: cmd
+        run: powershell -ExecutionPolicy Bypass -File run.ps1 sim --n 3 --quiet

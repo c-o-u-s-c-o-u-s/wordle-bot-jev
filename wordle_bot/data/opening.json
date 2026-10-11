@@ -1,0 +1,405 @@
+{
+"digest": "ee1e6538b312",
+"options": [
+{
+"word": "soare",
+"candidate": false,
+"entropy": 5.885960110378856,
+"expected_left": 62.30107991360691,
+"worst": 183,
+"score": 5.885960110378856
+},
+{
+"word": "roate",
+"candidate": false,
+"entropy": 5.88277932429197,
+"expected_left": 60.42462203023758,
+"worst": 195,
+"score": 5.88277932429197
+},
+{
+"word": "raise",
+"candidate": true,
+"entropy": 5.877909690821481,
+"expected_left": 61.000431965442765,
+"worst": 168,
+"score": 5.882737680660854
+},
+{
+"word": "raile",
+"candidate": false,
+"entropy": 5.8657097099518785,
+"expected_left": 61.33088552915767,
+"worst": 173,
+"score": 5.8657097099518785
+},
+{
+"word": "reast",
+"candidate": false,
+"entropy": 5.865457142861992,
+"expected_left": 71.76544276457884,
+"worst": 227,
+"score": 5.865457142861992
+},
+{
+"word": "slate",
+"candidate": true,
+"entropy": 5.855775376955966,
+"expected_left": 71.57235421166307,
+"worst": 221,
+"score": 5.860603366795339
+},
+{
+"word": "crate",
+"candidate": true,
+"entropy": 5.834874004263521,
+"expected_left": 72.89935205183585,
+"worst": 246,
+"score": 5.839701994102894
+},
+{
+"word": "irate",
+"candidate": true,
+"entropy": 5.831396980440788,
+"expected_left": 63.778833693304534,
+"worst": 194,
+"score": 5.836224970280161
+},
+{
+"word": "trace",
+"candidate": true,
+"entropy": 5.830548713859442,
+"expected_left": 74.01987041036718,
+"worst": 246,
+"score": 5.835376703698815
+},
+{
+"word": "salet",
+"candidate": false,
+"entropy": 5.834581525865647,
+"expected_left": 71.27213822894169,
+"worst": 221,
+"score": 5.834581525865647
+},
+{
+"word": "arise",
+"candidate": true,
+"entropy": 5.820939700886004,
+"expected_left": 63.72526997840173,
+"worst": 168,
+"score": 5.825767690725377
+},
+{
+"word": "orate",
+"candidate": false,
+"entropy": 5.8171611758060475,
+"expected_left": 63.89071274298056,
+"worst": 195,
+"score": 5.8171611758060475
+},
+{
+"word": "stare",
+"candidate": true,
+"entropy": 5.807280035160929,
+"expected_left": 71.29416846652268,
+"worst": 227,
+"score": 5.812108025000302
+},
+{
+"word": "carte",
+"candidate": false,
+"entropy": 5.794557247295694,
+"expected_left": 73.5157667386609,
+"worst": 246,
+"score": 5.794557247295694
+},
+{
+"word": "raine",
+"candidate": false,
+"entropy": 5.786709827456228,
+"expected_left": 67.0561555075594,
+"worst": 195,
+"score": 5.786709827456228
+},
+{
+"word": "caret",
+"candidate": false,
+"entropy": 5.776713196624419,
+"expected_left": 75.59956803455724,
+"worst": 246,
+"score": 5.776713196624419
+},
+{
+"word": "ariel",
+"candidate": false,
+"entropy": 5.775166510376184,
+"expected_left": 65.28768898488121,
+"worst": 173,
+"score": 5.775166510376184
+},
+{
+"word": "snare",
+"candidate": true,
+"entropy": 5.770088860457003,
+"expected_left": 71.09719222462203,
+"worst": 219,
+"score": 5.774916850296376
+},
+{
+"word": "arose",
+"candidate": true,
+"entropy": 5.767796702404354,
+"expected_left": 66.0207343412527,
+"worst": 183,
+"score": 5.772624692243727
+},
+{
+"word": "taler",
+"candidate": false,
+"entropy": 5.7706123898049215,
+"expected_left": 67.73693304535637,
+"worst": 196,
+"score": 5.7706123898049215
+},
+{
+"word": "carle",
+"candidate": false,
+"entropy": 5.770479071966419,
+"expected_left": 74.68034557235421,
+"worst": 249,
+"score": 5.770479071966419
+},
+{
+"word": "slane",
+"candidate": false,
+"entropy": 5.770181104822017,
+"expected_left": 73.98574514038877,
+"worst": 225,
+"score": 5.770181104822017
+},
+{
+"word": "artel",
+"candidate": false,
+"entropy": 5.768294956015332,
+"expected_left": 67.49589632829374,
+"worst": 196,
+"score": 5.768294956015332
+},
+{
+"word": "strae",
+"candidate": false,
+"entropy": 5.767280625543757,
+"expected_left": 71.84578833693304,
+"worst": 227,
+"score": 5.767280625543757
+},
+{
+"word": "carse",
+"candidate": false,
+"entropy": 5.765363510284161,
+"expected_left": 74.83239740820734,
+"worst": 237,
+"score": 5.765363510284161
+},
+{
+"word": "saine",
+"candidate": false,
+"entropy": 5.7640782900036065,
+"expected_left": 72.59222462203024,
+"worst": 207,
+"score": 5.7640782900036065
+},
+{
+"word": "earst",
+"candidate": false,
+"entropy": 5.757080659503351,
+"expected_left": 76.81166306695464,
+"worst": 227,
+"score": 5.757080659503351
+},
+{
+"word": "least",
+"candidate": true,
+"entropy": 5.75164564567927,
+"expected_left": 78.18920086393088,
+"worst": 221,
+"score": 5.756473635518643
+},
+{
+"word": "taser",
+"candidate": false,
+"entropy": 5.752976305902509,
+"expected_left": 71.27645788336933,
+"worst": 227,
+"score": 5.752976305902509
+},
+{
+"word": "alert",
+"candidate": true,
+"entropy": 5.745836550944612,
+"expected_left": 71.59827213822894,
+"worst": 196,
+"score": 5.750664540783985
+},
+{
+"word": "crane",
+"candidate": true,
+"entropy": 5.742781744697181,
+"expected_left": 78.74125269978401,
+"worst": 263,
+"score": 5.747609734536554
+},
+{
+"word": "stale",
+"candidate": true,
+"entropy": 5.7385726717904895,
+"expected_left": 75.60345572354211,
+"worst": 221,
+"score": 5.743400661629862
+},
+{
+"word": "tares",
+"candidate": false,
+"entropy": 5.742548079353993,
+"expected_left": 71.54341252699784,
+"worst": 227,
+"score": 5.742548079353993
+},
+{
+"word": "seral",
+"candidate": false,
+"entropy": 5.739455123079299,
+"expected_left": 73.07861771058316,
+"worst": 205,
+"score": 5.739455123079299
+},
+{
+"word": "saner",
+"candidate": true,
+"entropy": 5.733713267350085,
+"expected_left": 70.12526997840173,
+"worst": 219,
+"score": 5.738541257189458
+},
+{
+"word": "ratel",
+"candidate": false,
+"entropy": 5.730870234975014,
+"expected_left": 69.84319654427645,
+"worst": 196,
+"score": 5.730870234975014
+},
+{
+"word": "torse",
+"candidate": false,
+"entropy": 5.723380047282167,
+"expected_left": 77.95550755939524,
+"worst": 246,
+"score": 5.723380047282167
+},
+{
+"word": "tears",
+"candidate": false,
+"entropy": 5.718023488063658,
+"expected_left": 75.44751619870411,
+"worst": 227,
+"score": 5.718023488063658
+},
+{
+"word": "alter",
+"candidate": true,
+"entropy": 5.713170728077568,
+"expected_left": 69.9913606911447,
+"worst": 196,
+"score": 5.717998717916941
+},
+{
+"word": "resat",
+"candidate": false,
+"entropy": 5.716070666393214,
+"expected_left": 76.03153347732182,
+"worst": 227,
+"score": 5.716070666393214
+},
+{
+"word": "later",
+"candidate": true,
+"entropy": 5.7060889572947895,
+"expected_left": 70.22289416846652,
+"worst": 196,
+"score": 5.710916947134162
+},
+{
+"word": "react",
+"candidate": true,
+"entropy": 5.6963539512000425,
+"expected_left": 79.82980561555075,
+"worst": 246,
+"score": 5.701181941039415
+},
+{
+"word": "prate",
+"candidate": false,
+"entropy": 5.7006363284305435,
+"expected_left": 81.50021598272139,
+"worst": 268,
+"score": 5.7006363284305435
+},
+{
+"word": "trine",
+"candidate": false,
+"entropy": 5.697082166390677,
+"expected_left": 81.88898488120951,
+"worst": 270,
+"score": 5.697082166390677
+},
+{
+"word": "saice",
+"candidate": false,
+"entropy": 5.691243857829916,
+"expected_left": 76.51792656587473,
+"worst": 211,
+"score": 5.691243857829916
+},
+{
+"word": "toile",
+"candidate": false,
+"entropy": 5.691013693317559,
+"expected_left": 73.0414686825054,
+"worst": 204,
+"score": 5.691013693317559
+},
+{
+"word": "earnt",
+"candidate": false,
+"entropy": 5.690443514747237,
+"expected_left": 76.76501079913606,
+"worst": 226,
+"score": 5.690443514747237
+},
+{
+"word": "leant",
+"candidate": true,
+"entropy": 5.684573501404133,
+"expected_left": 77.25961123110152,
+"worst": 208,
+"score": 5.689401491243506
+},
+{
+"word": "trade",
+"candidate": true,
+"entropy": 5.681560869582507,
+"expected_left": 80.93131749460044,
+"worst": 269,
+"score": 5.686388859421879
+},
+{
+"word": "trone",
+"candidate": false,
+"entropy": 5.684948930746175,
+"expected_left": 78.82116630669546,
+"worst": 261,
+"score": 5.684948930746175
+}
+]
+}
