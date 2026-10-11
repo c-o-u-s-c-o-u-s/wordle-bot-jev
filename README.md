@@ -11,6 +11,12 @@ A classic Wordle solver does the real work. Laya, a general-purpose decision mod
 >
 > Read it as a worked example of wiring Laya's choice questions into a decision loop. It is not an AI that learned Wordle.
 
+## Demo
+
+![The bot playing two games of Wordle in Firefox, with the solver's shortlist and Laya's probabilities in the terminal](docs/demo.gif)
+
+Two real games at normal speed, with the browser the bot drives on the left and the terminal on the right. They were solved in 3 and 2 guesses, which is luckier than the usual average of about 3.5. ([MP4 version](docs/demo.mp4), 37 s, no sound.)
+
 ## Run it
 
 **Linux / macOS:**
